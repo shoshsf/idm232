@@ -29,25 +29,47 @@
     <div>
         <!-- search Bar -->
     </div>
-      <!-- Top Pick Section-->
-      <div id="topPickSection">
+    <!-- Top Pick Section-->
+    <div id="topPickSection">
         <div id="display">
-        <p id="topPickHeader">Today's Top Pick <p>
+            <p id="sectionHeader">Today's Top Pick <p>
             <div class="container center">
-            <img src="imgs/f3_880x400.jpg" alt="Top Pick" class="image responsive" >
-            <div class="overlay">
-                <div class="slideText">
-                    <p class="text">Lorem ipsum </p>
-                    <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a class="button" href="#" target="_blank" > 
-                    View Recipe</a>
+                <img src="imgs/f3_880x400.jpg" alt="Top Pick" class="image responsive" >
+                <div class="overlay">
+                    <div class="slideText">
+                        <p class="text">Lorem ipsum </p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <!-- <a class="button" href="#" target="_blank" > 
+                        View Recipe</a> -->
+                        <a id="buttonTopPick" href="#" target="_blank" >View Recipes</a>
+                    </div>
                 </div>
             </div>
-            </div>
         </div> 
-    <div>
+    </div>
+    <!-- Category Section-->
+    <div id="categorySec">
+         <p id="sectionHeader" class="center"> Categories </p>
+        <div id="categoryDiv" >
+                <section>
+                    <img src="imgs/f2_306x306.jpg" alt="food2">
+                    <p> Lorem ipsum dolor </p>
+                </section>
+                <section>
+                    <img src="imgs/f3_306x306.jpg" alt="food3">
+                    <p> Lorem ipsum dolor </p>
+                </section>
+                <section>
+                <img src="imgs/f4_306x306.jpg" alt="food4">
+                    <p> Lorem ipsum dolor </p>
+                </section>
+        </div>
+    </div>
 </div>
-
 <!--Body eNDSHere-->
-
+<footer>
+    <h1 id="logo_footer">
+        Kazi's Kitchen
+    </h1>
+</footer>
 <?php include_once 'components/footer.php'; ?>
