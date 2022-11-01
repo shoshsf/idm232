@@ -16,13 +16,19 @@
             </div> -->
             <div class="recipeTopSecDetails">
                 <div id="prepTime">
-                    Prep Time: 20 minutes
+                    Prep Time:
+                    <br>
+                     20 minutes
                 </div>
                 <div id="cookTime">
-                    Cook Time: 30 minutes
+                    Cook Time: 
+                    <br>
+                    30 minutes
                 </div>
                 <div id="servings">
-                    Servings: 4
+                    Total Servings:
+                    <br>
+                     4 servings
                 </div>
             </div>
         </div>
@@ -100,7 +106,7 @@
             Directions
             </h3>
             <section class="leftAlignedText">
-                <h4 class="recipeStep"> Step 1: Cook the onion and peppers</h4>
+                <h4 class="recipeStep marginTop_0"> Step 1: Cook the onion and peppers</h4>
                 <p> 
                     In a large skillet over medium heat, heat the oil. Add the paprika, cumin, and pepper flakes
                     and cook for 30 seconds to a minute to bloom the spices. Add the onion and cook, stirring 

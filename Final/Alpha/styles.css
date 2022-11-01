@@ -1,6 +1,6 @@
-/* *{
+*{
     border: 1px solid red;
-}   */
+}  
 
 /*Fonts*/
     @font-face {
@@ -71,20 +71,21 @@ html{
   padding-top: 8px;
 }
 
+  #navWidth{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
     .nav ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center; 
         font-family: Baloo;
-        
     }
     
     .nav  li {
         display: inline;
-        padding: 25px 80px;
+        padding: 25px 60px;
        }
     
     .nav a {
@@ -421,7 +422,6 @@ footer{
 button{
   background-color: #ffffff;
   border: none;
-
 }
 
 /* Search Section Ends */
@@ -501,7 +501,7 @@ button{
 
     #recipeBottomSec{ 
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto auto auto;
       gap: 25px;
       padding: 20px;
       margin: 0 110px;
@@ -512,12 +512,15 @@ button{
     #recipeBottomSec > div{
       text-align: center;
       padding: 10px 0;
-      font-size: 18px;
+
     }
     .recipeHeader{
-      font-size: 24px;
+      font-size: 22px;
       font-family: Baloo;
       letter-spacing: 3.5px;
+    }
+    .marginTop_0{
+      margin-top: 0;
     }
 
     .recipeStep{
@@ -533,13 +536,13 @@ button{
        /* to make sure the ingredients section isnt too big compared to directions  */
     }
     .ingredientSec h3{
-      padding-left: 15px;;
+      padding-left: 15px;
     }
 
     .ingredientSec li{
       padding: 10px;
       list-style-type: circle;
-      
+      font-family: noto serif;
     }
     .leftAlignedText{
       text-align: left;
@@ -551,7 +554,7 @@ button{
       padding-left: 15px;
     } 
     
-
+    /*Print Btn*/
     #recipePrint {
       list-style-type: none;
       margin: 0;
@@ -560,8 +563,6 @@ button{
       align-items: center;
       justify-content: center; 
     }
-
-    /*Print Btn*/
         #printBtn {
           font-family: futura;
           position: relative;
