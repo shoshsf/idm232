@@ -1,4 +1,11 @@
-<?php include_once 'components/header.php'; ?>
+<?php
+// Make sure the path is correct for each include on this page. Delete this comment once done
+include_once __DIR__ . '/app.php';
+$page_title = 'Recipe';
+include_once __DIR__ . '/_components/header.php';
+?>
+
+<!-- MAIN CONTENT GOES HERE -->
 
 <!--Body Here-->
 <div id="recipeDetailMain">
@@ -33,10 +40,10 @@
             </div>
         </div>
     </div>
+    
     <div id="recipeMidSec">
-
         <div id='recipeImgDiv'>
-            <img class="recipeImg" src="imgs/recipeImgs/Shakshuka-Feta-Olives.webp" alt="">
+            <img class="recipeImg" src=" <?php echo site_url(); ?>/dist/images/recipeImgs/Shakshuka-Feta-Olives.webp" alt="">
         </div>
         <div id="recipeSummary">
             <p>
@@ -156,4 +163,5 @@
 
 <!--Body eNDSHere-->
 
-<?php include_once 'components/footer.php'; ?>
+
+<?php include_once __DIR__ . '/_components/footer.php';
