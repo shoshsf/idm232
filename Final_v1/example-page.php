@@ -1,10 +1,9 @@
 <?php
 // Make sure the path is correct for each include on this page. Delete this comment once done
 include_once __DIR__ . '/app.php';
-$page_title = 'Recipes';
+$page_title = 'Recipe';
 include_once __DIR__ . '/_components/header.php';
 ?>
-
 
 <!-- MAIN CONTENT GOES HERE -->
 
@@ -55,8 +54,8 @@ include_once __DIR__ . '/_components/header.php';
                 delicate flavor.
             </p>    
         </div>
-        <div class="centerBtnDiv">
-            <a class="centerBtn" href="#" target="_blank" onclick="window.print()" > Print Recipe</a></div>
+        <div id="recipePrint">
+            <a id="printBtn" href="#" target="_blank" onclick="window.print()" > Print Recipe</a></div>
         </div>
     </div>
 
@@ -163,5 +162,6 @@ include_once __DIR__ . '/_components/header.php';
 </div>
 
 <!--Body ENDSHere-->
+
 
 <?php include_once __DIR__ . '/_components/footer.php';

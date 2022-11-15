@@ -39,10 +39,10 @@ $document_title = $page_title . ' | ' . $site_title; // Home | JAWN Clips
 
     <div class="nav">
         <ul id="navWidth">
-            <li><a href="<?php echo site_url(); ?>/index.php">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#">Recipes</a></li>
             <li><a href="#">Login</a></li>
-            <li><a href="<?php echo site_url(); ?>/admin/recipes/index.php">Admin</a></li>
+            <li><a href="#">Admin</a></li>
         </ul>
     </div>
 <div>

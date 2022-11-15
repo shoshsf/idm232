@@ -5,7 +5,7 @@ include_once __DIR__ . '/_components/header.php';
 ?>
 
 <!--Body Here-->
-<div class="midSection">
+    <div class="midSection">
         <div id="welcomeText">
             <p> 
                 Welcome to my kitchen! I know how hard it is to find delicious recipes that you absolutly love. That’s why I am here to share my collection of recipes with you. The collection consists of a variety of healthy and delicious dishs.
@@ -60,7 +60,6 @@ include_once __DIR__ . '/_components/header.php';
             </div>
         </div>
     </div>
-<!--Body ENDSHere-->
+<!--Body eNDSHere-->
 
 <?php include_once __DIR__ . '/_components/footer.php';
-?>
