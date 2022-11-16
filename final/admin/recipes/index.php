@@ -42,16 +42,16 @@ $result = mysqli_query($db_connection, $query);
                   <th scope="col" class="">Name of Recipe</th>
                 </tr> -->
               </thead>
-              <tbody class="" style="border: 1px red solid;">
+              <tbody>
                 <?php
                  $site_url = site_url();
                   while ($recipe = mysqli_fetch_array($result)) {
-                    echo "<tr class=''>
+                    echo "<tr>
                       <td class='recipeName'>{$recipe['recipe_name']}</td>
                       <td class='recipeButtons'>
-                        <a href='{$site_url}/admin/recipes/edit.php?id={$recipe['id']}' class=''>Edit</a>
-                        <a href='{$site_url}/admin/recipes/delete.php?id={$recipe['id']}' class=''>Delete</a>
-                      </td>
+                        <a href='{$site_url}/admin/recipes/edit.php?id={$recipe['id']}' class='editDeleteBtn'>Edit</a>
+                        <a href='{$site_url}/admin/recipes/delete.php?id={$recipe['id']}' class='editDeleteBtn'>Delete</a>
+                       </td>
                     </tr>";
                   }
                  ?>

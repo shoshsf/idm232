@@ -9,6 +9,7 @@
     </p>
   </footer>
 
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
   <script src="<?php echo site_url(); ?>/dist/scripts/main.js"></script>
   </body>
 

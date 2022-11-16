@@ -22,50 +22,52 @@ if ($result->num_rows > 0) {
 
 ?> 
 
-<div class="">
-    <div class="">
-        <h1 class="">Edit Recipe</h1>
+<div class="formPage">
+    <div class="adminHeaderSec">
+        <h1 class="adminHeader">Edit A Recipe</h1>
     </div>
-    <div class="">
+    <hr class="hr_form">
+    <div class="adminFormDiv">
         <form action="<?php echo site_url(); ?>/_includes/process-edit-recipe.php" method="POST">
 
-            <div class="editrecipeInput">
+            <div class="recipeInput">
                 <label for="">Name Of Recipe</label>
                 <input type="text" name="recipe_name"
                     value="<?php echo $recipe['recipe_name']; ?>">
             </div>
-            <div class="editrecipeInput">
+            <div class="recipeInput">
                 <label for="">Servings</label>
                 <input type="text" name="servings"
                     value="<?php echo $recipe['servings']; ?>">
             </div>
-            <div class="editrecipeInput">
+            <div class="recipeInput">
                 <label for="">Cook Time</label>
                 <input type="text" name="cook_time"
                     value="<?php echo $recipe['cook_time']; ?>">
             </div>
-            <div class="editrecipeInput">
+            <div class="recipeInput">
                 <label for="">Prep Time</label>
                 <input type="text" name="prep_time"
                     value="<?php echo $recipe['prep_time']; ?>">
             </div>
-            <div class="editrecipeInput">
+            <div class="recipeInput">
                 <label for="">Description</label>
                 <input type="text" name="description"
                     value="<?php echo $recipe['description']; ?>">
             </div>
-            <div class="editrecipeInput">
+            <div class="recipeInput">
                 <label for="">Ingredients</label>
                 <input type="text" name="ingredients"
                     value="<?php echo $recipe['ingredients']; ?>">
             </div>
-            <div class="editrecipeInput">
+            <div class="recipeInput">
                 <label for="">Directions</label>
                 <input type="text" name="directions"
                     value="<?php echo $recipe['directions']; ?>">
             </div>
-
-            <input class=" " type="submit" value="Update">
+            <div class="secondaryButtonDiv">
+                <input class="secondaryButton" type="submit" value="Update">
+            </div>
 
             <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
         </form>

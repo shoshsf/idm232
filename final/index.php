@@ -8,7 +8,7 @@ include_once __DIR__ . '/_components/header.php';
 <div class="midSection">
         <div id="welcomeText">
             <p> 
-                Welcome to my kitchen! I know how hard it is to find delicious recipes that you absolutly love. That’s why I am here to share my collection of recipes with you. The collection consists of a variety of healthy and delicious dishs.
+                Welcome to my kitchen! I know how hard it is to find delicious recipes that you absolutely love. That is why I am here to share my collection of recipes with you. The collection consists of a variety of healthy and delicious dishes.
                 <br>Hope you find a recipe you like in my Kitchen!
             </p>
         </div>
@@ -17,7 +17,9 @@ include_once __DIR__ . '/_components/header.php';
             <form class="searchBox"> <!--action="/action_page.php"  -->
                 <div>
                     <input class="searchText" type="text" placeholder="Search..." name="search">
-                    <button><iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon></button>
+                    <button class="searchButtonSec">
+                        <iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon>
+                    </button>
                 </div>
             </form>
         </div> 
