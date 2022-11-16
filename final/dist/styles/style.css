@@ -702,6 +702,10 @@ justify-content: center;
     transition-delay: 0.3s; 
 }
 
+.deleteBtn:hover{
+  color: #e99342;
+}
+
 
 
 .adminTable{

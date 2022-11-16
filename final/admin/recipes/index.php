@@ -50,7 +50,7 @@ $result = mysqli_query($db_connection, $query);
                       <td class='recipeName'>{$recipe['recipe_name']}</td>
                       <td class='recipeButtons'>
                         <a href='{$site_url}/admin/recipes/edit.php?id={$recipe['id']}' class='editDeleteBtn'>Edit</a>
-                        <a href='{$site_url}/admin/recipes/delete.php?id={$recipe['id']}' class='editDeleteBtn'>Delete</a>
+                        <a href='{$site_url}/admin/recipes/delete.php?id={$recipe['id']}' class='editDeleteBtn deleteBtn'>Delete</a>
                        </td>
                     </tr>";
                   }
