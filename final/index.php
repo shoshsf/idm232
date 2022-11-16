@@ -15,9 +15,9 @@ include_once __DIR__ . '/_components/header.php';
         <hr class="hr_30">
         <div class="searchContainer">
             <form class="searchBox"> <!--action="/action_page.php"  -->
-                <div >
+                <div>
                     <input class="searchText" type="text" placeholder="Search..." name="search">
-                    <button id="searchIcon"><iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon></button>
+                    <button><iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon></button>
                 </div>
             </form>
         </div> 
