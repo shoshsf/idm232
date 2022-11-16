@@ -1,0 +1,608 @@
+
+/*-------------------------(max-width: 1000px) and------------*/
+
+ @media only screen and  (min-width: 845px){
+    /*Navigation*/
+      /* .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        padding-top: 8px;
+      } */
+
+        /* #navWidth{
+          display: flex;
+          align-items: center;
+          justify-content: center; 
+        } */
+          .nav ul {
+              margin: 0 80px;
+              padding: 0 30px;
+          }
+          
+          .nav  li {
+              display: inline;
+              padding: 25px 20px;
+            }
+          
+          .nav a {
+              position: relative;
+              padding: 10px 25px;
+              margin: 45px 0;
+              font-size: 18px;
+              letter-spacing: 1.2px;
+              }
+
+    /*Navigation End*/
+
+    /*----------------------------*/
+    
+    /*Recipe Detail Page*/
+
+      /* Recipe Top Section */
+        .recipeTitle{
+          font-size: 26px;
+          font-family: Baloo;
+          letter-spacing: 2.4px;
+          text-align: center;
+          padding-bottom: 20px;;
+        }
+       
+        /* .recipeTopSecDetails{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: Architects Daughter;
+        } */
+        .recipeTopSecDetails div{
+          padding: 0 20px;
+          font-size: 16px;
+          letter-spacing: 1.2px;
+          text-align: center;
+        }
+
+      /* -------------------------- */
+      /* Recipe Mid Section*/
+      #recipeMidSec{
+        margin: 20px 40px 0;
+      }
+      #recipeImgDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+      }
+      .recipeImg{
+        max-width: 70%;
+        border: 3px #091C29 solid;
+      }
+      #recipeSummary{
+        padding: 20px 0;
+        font-size: 18px;
+        font-family: Noto Serif;
+        line-height: 22px;
+        letter-spacing: 1.2px;
+      }
+
+      /*-------------------*/
+
+      /* Recipe Bottom Section*/
+
+      #recipeBottomSec{ 
+        gap: 10px;
+        padding: 10px 10px 45px;
+        margin: 0 110px;
+      }
+
+      #recipeBottomSec > div{
+        padding:0;
+      }
+
+      .recipeHeader{
+        font-size: 20px;
+        font-family: Baloo;
+        letter-spacing: 2.8px;
+      }
+
+      .recipeStep{
+        font-size: 16px;
+        font-family: Baloo;
+        letter-spacing: 1.6px;
+
+      }
+      .marginTop_0{
+        margin-top: 0;
+      }
+
+      .ingredientSec{
+        border: 4px #091C29 double;
+        margin: 0 25px; 
+        max-width: 300px;
+        /* to make sure the ingredients section isnt too big compared to directions  */
+      }
+      .ingredientSec h3{
+        padding-left: 15px;;
+      }
+      .ingredientSec li{
+        padding: 10px 14px;
+        font-size: 16px;
+      }
+      .directions{
+        margin: 0 -5px;
+      }
+      .directions p{
+        font-size: 17px;
+        line-height: 24px;
+        font-family: Noto Serif;
+      }
+    /*-------------------*/
+
+    /*Print Btn*/
+        #printBtn {
+          padding: 10px 25px;
+          margin: 22px 0;
+          font-size: 18px;
+        }
+
+    /*---------*/
+
+    /*Recipe Detail Ends*/
+
+}
+
+
+ @media only screen and (max-width: 845px) and (min-width: 760px) {
+        /*Navigation*/
+            .nav ul {
+              margin: 0 120px;
+              padding: 0 20px;
+          }
+          
+          .nav li {
+              display: inline;
+              padding: 20px 15px;
+            }
+          
+          .nav a {
+              position: relative;
+              padding: 10px 15px;
+              margin: 30px 0;
+              font-size: 16px;
+              letter-spacing: 1px;
+              }
+
+    /*Navigation End*/
+
+    /*----------------------------*/
+
+    /*Recipe Detail Page*/
+
+      /* Recipe Top Section */
+        .recipeTitle{
+          font-size: 22px;
+          font-family: Baloo;
+          letter-spacing: 1.2px;
+          text-align: center;
+          padding-bottom: 15px;
+        }
+      
+        .recipeTopSecDetails div{
+          padding: 0 20px;
+          font-size: 14px;
+          letter-spacing: 1px;
+          text-align: center;
+        }
+
+      /* -------------------------- */
+      /* Recipe Mid Section*/
+      #recipeMidSec{
+        margin: 20px 45px 0;
+      }
+      #recipeImgDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+      }
+      .recipeImg{
+        max-width: 80%;
+        border: 3px #091C29 solid;
+      }
+      #recipeSummary{
+        padding: 20px 0;
+        font-size: 16px;
+        font-family: Noto Serif;
+        line-height: 18px;
+        letter-spacing: 1px;
+      }
+
+      /*-------------------*/
+
+      /* Recipe bottom Section*/
+
+      #recipeBottomSec{ 
+        gap: 10px;
+        padding: 10px 5px 45px;
+        margin: 0 110px;
+      }
+
+      #recipeBottomSec > div{
+        padding:0;
+      }
+
+      .recipeHeader{
+        font-size: 18px;
+        font-family: Baloo;
+        letter-spacing: 2.6px;
+      }
+
+      .recipeStep{
+        font-size: 14px;
+        font-family: Baloo;
+        letter-spacing: 1.4px;
+
+      }
+      .marginTop_0{
+        margin-top: 0;
+      }
+
+      .ingredientSec{
+        border: 4px #091C29 double;
+        margin: 0 25px; 
+        max-width: 230px;
+        /* to make sure the ingredients section isnt too big compared to directions  */
+      }
+      .ingredientSec h3{
+        padding-left: 15px;;
+      }
+      .ingredientSec li{
+        padding: 10px 14px;
+        font-size: 14px;
+      }
+      .directions{
+        margin: 0 -10px;
+      }
+      .directions p{
+        font-size: 15px;
+        line-height: 22px;
+        font-family: Noto Serif;
+      }
+    /*-------------------*/
+
+    /*Print Btn*/
+        #printBtn {
+          padding: 10px 25px;
+          margin: 22px 0;
+          font-size: 16px;
+        }
+
+    /*---------*/
+
+    /*Recipe Detail Ends*/
+
+}
+/*-----------New Media ----------------*/
+
+@media only screen and (max-width: 760px) and (min-width: 605px) {
+      .logoHeader{
+        padding: 20px 0 8px;
+      }
+
+      #logo{
+         font-size: 65px;
+        font-weight: 50;
+      }
+
+      /*Navigation*/
+        .nav ul {
+          margin: 0 120px;
+          padding: 0;
+        }
+        
+        .nav li {
+            display: inline;
+            padding: 20px 0;
+            margin: 0 5px;
+          }
+        
+        .nav a {
+            position: relative;
+            padding: 10px 15px;
+            /* margin: 30px 0; */
+            font-size: 14px;
+            letter-spacing: 0.6px;
+            }
+
+      /*Navigation End*/
+
+      /*----------------------------*/
+
+      /*Recipe Detail Page*/
+      
+        #recipeDetailMain{
+          margin: 30px 50px 20px;
+          max-width: 600px;
+        }
+
+        /* Recipe Top Section */
+          .recipeTitle{
+            font-size: 20px;
+            font-family: Baloo;
+            letter-spacing: 1px;
+            text-align: center;
+            padding-bottom: 15px;
+          }
+        
+          .recipeTopSecDetails div{
+            padding: 0 8px;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            text-align: center;
+          }
+
+        /* -------------------------- */
+        /* Recipe Mid Section*/
+        #recipeMidSec{
+          margin: 20px 45px 0;
+        }
+        #recipeImgDiv{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 0;
+        }
+        .recipeImg{
+          max-width: 95%;
+          border: 3px #091C29 solid;
+        }
+        #recipeSummary{
+          padding: 10px 0;
+          font-size: 13px;
+          font-family: Noto Serif;
+          line-height: 16px;
+          letter-spacing: 1px;
+        }
+
+        /*-------------------*/
+
+        /* Recipe bottom Section*/
+
+        #recipeBottomSec{ 
+          gap: 15px;
+          padding: 10px 10px 45px 10px;
+          margin: 0 50px;
+          max-width: 600px;
+        }
+
+        #recipeBottomSec > div{
+          padding:0;
+        }
+
+        .recipeHeader{
+          font-size: 15px;
+          font-family: Baloo;
+          letter-spacing: 2.6px;
+        }
+
+        .recipeStep{
+          font-size: 13px;
+          font-family: Baloo;
+          letter-spacing: 1.2px;
+
+        }
+        .marginTop_0{
+          margin-top: 0;
+        }
+
+        .ingredientSec{
+          border: 4px #091C29 double;
+          margin: 0 5px; 
+          max-width: 150px;
+          /* to make sure the ingredients section isnt too big compared to directions  */
+        }
+        .ingredientSec h3{
+          padding-left: 15px;
+        }
+        .ingredientSec li{
+          padding: 5px 10px;
+          font-size: 12.5px;
+          margin-left: -15px;
+        }
+        .directions{
+          margin: 0 -10px;
+        }
+        .directions p{
+          font-size: 12.5px;
+          line-height: 20px;
+          font-family: Noto Serif;
+        }
+      /*-------------------*/
+
+      /*Print Btn*/
+          #printBtn {
+            padding: 10px 25px;
+            margin: 22px 0;
+            font-size: 16px;
+          }
+
+      /*---------*/
+
+      /*Recipe Detail Ends*/
+
+
+
+}
+
+
+/*-------------------------------------*/
+/*-----------New Media ----------- and (min-width: 440px)-----*/
+
+@media only screen and (max-width: 605px){
+  #logo{
+    font-size: 60px;
+    font-weight: 50;
+  }
+  /*Navigation*/
+    .nav ul {
+      /* margin: 0 130px; */
+      padding: 0;
+      max-width: 600px;
+    }
+    
+    .nav li {
+        display: inline;
+        padding: 10px 5px;
+        margin: 0 10px;
+      }
+    
+    .nav a {
+        position: relative;
+        padding: 10px 15px;
+        /* margin: 30px 0; */
+        font-size: 14px;
+        letter-spacing: 0.6px;
+        }
+
+  /*Navigation End*/
+
+  /*----------------------------*/
+
+  /*Recipe Detail Page*/
+
+    #recipeDetailMain{
+      margin: 30px 20px 20px;
+      max-width: 600px;
+    }
+    /* Recipe Top Section */
+      .recipeTitle{
+        font-size: 20px;
+        font-family: Baloo;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-bottom: 15px;
+      }
+    
+      .recipeTopSecDetails div{
+        padding: 0 8px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        text-align: center;
+      }
+
+    /* -------------------------- */
+    /* Recipe Mid Section*/
+    #recipeMidSec{
+      margin: 20px 45px 0;
+    }
+    #recipeImgDiv{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+    }
+    .recipeImg{
+      max-width: 95%;
+      border: 3px #091C29 solid;
+    }
+    #recipeSummary{
+      padding: 10px 0;
+      font-size: 13px;
+      font-family: Noto Serif;
+      line-height: 16px;
+      letter-spacing: 1px;
+    }
+
+    /*-------------------*/
+
+    /* Recipe bottom Section*/
+
+    #recipeBottomSec{ 
+      gap: 15px;
+      padding: 10px 10px 30px 10px;
+      margin: 0 20px;
+    }
+
+    #recipeBottomSec > div{
+      padding: 0;
+    }
+
+    .recipeHeader{
+      font-size: 15px;
+      font-family: Baloo;
+      letter-spacing: 2.6px;
+    }
+
+    .recipeStep{
+      font-size: 13px;
+      font-family: Baloo;
+      letter-spacing: 1.2px;
+
+    }
+    .marginTop_0{
+      margin-top: 0;
+    }
+
+    .ingredientSec{
+      border: 4px #091C29 double;
+      margin: 0 5px; 
+      max-width: 130px;
+      /* to make sure the ingredients section isnt too big compared to directions  */
+    }
+    .ingredientSec h3{
+      padding-left: 15px;
+    }
+    .ingredientSec li{
+      padding: 5px 10px;
+      font-size: 12.5px;
+      margin-left: -15px;
+    }
+    .directions{
+      margin: 0 -10px;
+    }
+    .directions p{
+      font-size: 12.5px;
+      line-height: 20px;
+      font-family: Noto Serif;
+    }
+  /*-------------------*/
+
+  /*Print Btn*/
+      #printBtn {
+        padding: 10px 25px;
+        margin: 22px 0;
+        font-size: 16px;
+      }
+
+  /*---------*/
+
+  /*Recipe Detail Ends*/
+
+
+
+}
+@media only screen and (max-width: 440px){
+  /*Navigation*/
+  .nav ul {
+    /* margin: 0 130px; */
+    padding: 0;
+    max-width: 400px;
+  }
+  
+  .nav li {
+      display: inline;
+      padding: 10px 5px;
+      margin: 0 10px;
+    }
+  
+  .nav a {
+      position: relative;
+      padding: 10px 15px;
+      /* margin: 30px 0; */
+      font-size: 14px;
+      letter-spacing: 0.6px;
+      }
+
+/*Navigation End*/
+    }
+
+
