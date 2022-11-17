@@ -39,3 +39,5 @@ if ($result) {
     $error_message = 'recipe was not updated';
     redirect_to('/admin/recipes?error=' . $error_message);
 }
+
+?>

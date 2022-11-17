@@ -52,3 +52,5 @@ function getFormattedDateTime()
 {
     return  date('Y-m-d H:i:s');
 }
+
+?>

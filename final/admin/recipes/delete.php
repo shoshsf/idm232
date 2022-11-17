@@ -14,6 +14,8 @@ $result = mysqli_query($db_connection, $query);
 if ($result) {
     redirect_to('/admin/recipes');
 } else {
-    $error_message = 'Could Not Delete User';
+    $error_message = 'Could Not Delete Recipe';
     redirect_to('/admin/recipes?error=' . $error_message);
 }
+
+?>
