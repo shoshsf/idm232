@@ -1,7 +1,7 @@
 <?php
 
 include_once __DIR__ . '/../../app.php';
-$page_title = 'Veiw All Recipes';
+$page_title = 'View All Recipes';
 include_once __DIR__ . '/../../_components/header.php';
 ?>
 

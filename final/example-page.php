@@ -15,13 +15,6 @@ include_once __DIR__ . '/_components/header.php';
             <p class="recipeTitle">
                 Shakshuka with Feta, Olives, and Peppers
             </p>
-            <!-- <div id="ratings">
-                <iconify-icon icon="clarity:star-solid" style="color: #E99342;" id="star1" class="star" width="30px"></iconify-icon>
-                <iconify-icon icon="clarity:star-solid" style="color: #E99342;" id="star2" class="star" width="30px"></iconify-icon>
-                <iconify-icon icon="clarity:star-solid" style="color: #E99342;" id="star3" class="star" width="30px"></iconify-icon>
-                <iconify-icon icon="clarity:star-solid" style="color: #E99342;" id="star4" class="star" width="30px"></iconify-icon>
-                <iconify-icon icon="clarity:star-solid" style="color: #E99342;" id="star5" class="star" width="30px"></iconify-icon>
-            </div> -->
             <div class="recipeTopSecDetails">
                 <div id="prepTime">
                     Prep Time:

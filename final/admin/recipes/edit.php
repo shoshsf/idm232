@@ -62,6 +62,11 @@ if ($result->num_rows > 0) {
             </div>
             <div class="recipeInput">
                 <label for="">Directions</label>
+                <br>
+                <textarea class="" name="directions" id="classic">
+                <?php echo $recipe['directions']; ?>
+              </textarea>
+
                 <input type="text" name="directions"
                     value="<?php echo $recipe['directions']; ?>">
             </div>

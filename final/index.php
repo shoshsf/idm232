@@ -14,7 +14,7 @@ include_once __DIR__ . '/_components/header.php';
         </div>
         <hr class="hr_30">
         <div class="searchContainer">
-            <form class="searchBox"> <!--action="/action_page.php"  -->
+            <form class="searchBox" action= "<?php echo site_url(); ?>/admin/search" method="GET">
                 <div>
                     <input class="searchText" type="text" placeholder="Search..." name="search">
                     <button class="searchButtonSec">
