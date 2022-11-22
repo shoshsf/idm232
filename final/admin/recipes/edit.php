@@ -52,23 +52,24 @@ if ($result->num_rows > 0) {
             </div>
             <div class="recipeInput">
                 <label for="">Description</label>
-                <input type="text" name="description"
-                    value="<?php echo $recipe['description']; ?>">
+                <br>
+                <textarea class="classic"" name="description" cols="30" rows="10">
+                    <?php echo $recipe['description']; ?>
+                </textarea>
             </div>
             <div class="recipeInput">
                 <label for="">Ingredients</label>
-                <input type="text" name="ingredients"
-                    value="<?php echo $recipe['ingredients']; ?>">
+                <br>
+                <textarea class="classic" name="ingredients" cols="30" rows="10">
+                    <?php echo $recipe['ingredients']; ?>
+                </textarea>
             </div>
             <div class="recipeInput">
                 <label for="">Directions</label>
                 <br>
-                <textarea class="" name="directions" id="classic">
-                <?php echo $recipe['directions']; ?>
-              </textarea>
-
-                <input type="text" name="directions"
-                    value="<?php echo $recipe['directions']; ?>">
+                <textarea class="classic" name="directions" cols="30" rows="10">
+                    <?php echo $recipe['directions']; ?>
+                </textarea>
             </div>
             <div class="secondaryButtonDiv">
                 <input class="secondaryButton" type="submit" value="Update">

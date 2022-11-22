@@ -10,6 +10,8 @@
   </footer>
 
   <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <script src="https://cdn.tiny.cloud/1/9jqy2gw4ig8mdo8k817dbzbfwj54llufua2gzl30qad17tlw/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
   <script src="<?php echo site_url(); ?>/dist/scripts/main.js"></script>
   </body>
 
