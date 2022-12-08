@@ -36,6 +36,11 @@ if ($result->num_rows > 0) {
                     value="<?php echo $recipe['recipe_name']; ?>">
             </div>
             <div class="recipeInput">
+                <label for="">Image Path</label>
+                <input type="text" name="image_path"
+                    value="<?php echo $recipe['image_path']; ?>">
+            </div>
+            <div class="recipeInput">
                 <label for="">Servings</label>
                 <input type="text" name="servings"
                     value="<?php echo $recipe['servings']; ?>">
@@ -53,7 +58,7 @@ if ($result->num_rows > 0) {
             <div class="recipeInput">
                 <label for="">Description</label>
                 <br>
-                <textarea class="classic"" name="description" cols="30" rows="10">
+                <textarea class="classic" name="description" cols="30" rows="10">
                     <?php echo $recipe['description']; ?>
                 </textarea>
             </div>
@@ -83,4 +88,4 @@ if ($result->num_rows > 0) {
 
 
 
-<?php include_once __DIR__ . '/../../_components/footer.php';
+<?php include_once __DIR__ . '/../../_components/footer.php'; 

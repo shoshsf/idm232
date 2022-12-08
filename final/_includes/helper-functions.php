@@ -23,15 +23,20 @@ function site_url()
     return $APP_CONFIG['site_url'];
 }
 
+
 /**
  * Redirect to any path
  * @param  string $path - The path to redirect to
  */
 function redirect_to($path)
 {
-    header('Location: ' . site_url() . $path);
+    $full_url = site_url() . $path;
+    // Bluehost doesn't like when you use header() to redirect so we'll use JS instead
+    // header('Location: ' . $full_url);
+    echo "<script>window.location = '$full_url';</script>";
     exit;
 }
+
 
 /**
  * Get current project root directory path
@@ -53,4 +58,15 @@ function getFormattedDateTime()
     return  date('Y-m-d H:i:s');
 }
 
+/**
+ * Escape special characters in strings:
+ * @link - https://www.w3schools.com/php/func_mysqli_real_escape_string.asp
+ * @return string - The current page URL
+ */
+function sanitize_value($value)
+{
+    global $db_connection;
+    return mysqli_real_escape_string($db_connection, $value);
+}
 ?>
+

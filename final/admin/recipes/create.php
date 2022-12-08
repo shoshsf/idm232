@@ -27,6 +27,11 @@ $result = mysqli_query($db_connection, $query);
             </div>
 
             <div class="recipeInput">
+                <label for="">Image Path</label>
+                <input type="text" name="image_path">
+            </div>
+
+            <div class="recipeInput">
                 <label for="">Servings</label>
                 <input type="text" name="servings">
             </div>
@@ -44,17 +49,20 @@ $result = mysqli_query($db_connection, $query);
 
             <div class="recipeInput">
                 <label for=""> Description </label>
-                <input type="text" name="description">
+                <textarea class="classic" name="description" >
+                </textarea>
             </div>
 
             <div class="recipeInput">
                 <label for=""> Ingredients </label>
-                <input type="text" name="ingredients">
+                <textarea class="classic" name="ingredients" >
+                </textarea>
             </div>
 
             <div class="recipeInput">
                 <label for=""> Directions </label>
-                <input type="text" name="directions">
+                <textarea class="classic" name="directions" >
+                </textarea>
             </div>
             <div class="secondaryButtonDiv">
                 <input class="secondaryButton" type="submit" value="submit">

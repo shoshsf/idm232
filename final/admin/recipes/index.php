@@ -5,9 +5,10 @@ $page_title = 'View All Recipes';
 include_once __DIR__ . '/../../_components/header.php';
 ?>
 
+
 <?php
 // get users data from database
-$query = 'SELECT * FROM recipe';
+$query = 'SELECT * FROM recipe ORDER BY recipe_name ASC';
 $result = mysqli_query($db_connection, $query);
 
 ?>
