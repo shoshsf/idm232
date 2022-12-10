@@ -28,15 +28,16 @@ include_once __DIR__ . '/_components/header.php';
             <div id="display">
                 <p id="sectionHeader">Today's Top Pick <p>
                 <div class="container center">
-                    <img  src=" <?php echo site_url(); ?>/dist/images/homeImgs/f3_880x400.jpg" alt="Top Pick" class="image responsive" >
+                    <img  src=" <?php echo site_url(); ?>/dist\images\homeImgs\layer-bean-dip-880x400.png" alt="Top Pick" class="image responsive" >
                     <div class="overlay">
                         <div class="slideText">
-                            <p class="text">Lorem ipsum </p>
-                            <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="text">7 Layer Bean Dip
+ </p>
+                            <p class="subtext"> It's not a party without 7 layer dip! We make it with hot refried beans topped with cheddar cheese, chilies, tomatoes, avocados, sour cream, and sliced black olives. It's an essential Game Day appetizer. </p>
                             <!-- <a class="button" href="#" target="_blank" > 
                             View Recipe</a> -->
                             <div>
-                                <a id="buttonTopPick" href="#" target="_blank" >View Recipes</a>
+                                <a id="buttonTopPick" href="<?php echo site_url() . '/recipeDetail.php?id=57' ?>" target="_blank" >View Recipes</a>
                             </div>
                         </div>
                     </div>

@@ -23,37 +23,39 @@ if (!isset($result)) {
     $site_url = site_url();
     while ($recipe = mysqli_fetch_array($result)) {
         echo "
-        <div class=''>
-            <div class=''>
-                <div class=''>
-                    <div>
-                        <h2 class=''>{$recipe['recipe_name']}</h2>
-                        <div> 
-                            <p class=''> Prep Time: {$recipe['prep_time']}</p>
-                            <p class=''> Cook Time: {$recipe['cook_time']}</p>
-                            <p class=''> Servings: {$recipe['servings']}</p>
+ 
+  
+            <div class='midSection'>
+                <div class='recipeDetailTop text-center'>
+                    <h2 class='recipeDetailTitle'>{$recipe['recipe_name']}</h2>
+                    <div class='recipeDetailTimes'> 
+                        <div class='recipeDetailTimesContent'>
+                            <p class='recipeDetailTimesItem ffArchitectsDaughter'> Prep Time: {$recipe['prep_time']}</p>
+                            <p class='recipeDetailTimesItem ffArchitectsDaughter specialBorder'> Cook Time: {$recipe['cook_time']}</p>
+                            <p class='recipeDetailTimesItem ffArchitectsDaughter'> Servings: {$recipe['servings']}</p>
                         </div>
                     </div>
-                    <img class='' width='500px' height='500px' src='{$site_url}/{$recipe['image_path']}' alt=''>
-                    <div>
-                        <p class=''>{$recipe['description']}</p>
-                    </div>
-
-                    <hr class='hr_30'>
-
-                    <div class=''>
-                        <div class=''>
-                            <h3> Ingredients </h3>
-                            <p class=''>{$recipe['ingredients']}</p>
-                        </div>
-                        <div class=''>
-                            <h3> Directions </h3>
-                            <p class=''>{$recipe['directions']}</p>
-                        </div>
-                    </div> 
                 </div>
+
+
+
+                <img class='featureImage center responsive' width='500px' height='500px' src='{$site_url}/{$recipe['image_path']}' alt='#'>
+                
+                <hr class='hr_30'>
+
+                <div class='recipeBottom'>
+                    <div class='ingredients'>
+                        <h3> Ingredients </h3>
+                        <p class=''>{$recipe['ingredients']}</p>
+                    </div>
+                    <div class='directions'>
+                        <h3> Directions </h3>
+                        <p class=''>{$recipe['directions']}</p>
+                    </div>
+                </div> 
             </div>
-        </div>    
+
+
         ";
     }
 ?>

@@ -22,6 +22,7 @@ $document_title = $page_title . ' | ' . $site_title; // Home | JAWN Clips
     
   <link rel="stylesheet" href=" <?php echo site_url(); ?>/dist/styles/style.css">
   <link rel="stylesheet" href=" <?php echo site_url(); ?>/dist/styles/media.css">
+  <link rel="icon" href="<?php echo site_url(); ?>/dist/images/favicon.ico">
   <!-- <link rel="stylesheet" href="../dist/styles/style.css">
   <link rel="stylesheet" href="../dist/styles/media.css"> -->
   <link href="https://www.dafontfree.net/embed/YWtyb25pbS1yZWd1bGFyJmRhdGEvMjkvYS8xNTM0MTIvQWtyb25pbS1SZWd1bGFyLnR0Zg" rel="stylesheet" type="text/css"/>

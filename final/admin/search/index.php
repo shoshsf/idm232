@@ -33,11 +33,11 @@ if ($results->num_rows > 0) {
 
 
 <div class="">
-  <div class="">
+
     <!-- not sure whats happening here -->
     <?php include __DIR__ . '../results.php'; ?> 
-    <div class="midSection responsive">
-        <div class="">
+    <div class=" responsive">
+        <div class="midSection">
             <h1 class="searchTitle">Search Results</h1>
             <div class="searchContainer">
                 <form class="searchBox" action= "<?php echo site_url(); ?>/admin/search" method="GET">
@@ -49,7 +49,7 @@ if ($results->num_rows > 0) {
                     </div>
                 </form>
             </div> 
-            <h2>You searched for "<?php echo $search; ?>"</h2>
+            <h3 class="text-center">You searched for "<?php echo $search; ?>"</h3>
             <?php
                 // If no results, echo no results
                 if (!$recipe_results) {
@@ -63,35 +63,36 @@ if ($results->num_rows > 0) {
                 }
             ?>
         </div>
+        <?php
+            $site_url = site_url();
+            // If we have results, show them
+            if ($recipe_results) {
+                while ($recipe_results = mysqli_fetch_assoc($results)) {
+                    //   echo '<div class= "">';
+                    //   echo '<p class= "" >' . $recipe_results['recipe_name'] . '<p>';
+                    //   echo '<p class= "" >' . $recipe_results['description'] . '<p>' ;
+                    //   echo '</div>';
+                    echo "
+                        <div class='midSection'>
+                            <div class= 'recipeCard'>
+                                <a href='{$site_url}/recipeDetail.php?id={$recipe_results['id']}' class='recipeCardContent'>
+                                    <div class=''>
+                                        <img class='recipeCardImg' src='{$site_url}/{$recipe_results['image_path']}' alt=''>
+                                    </div>
+                                    <div class='recipeCardText'>
+                                        <h3 class='recipeCardTitle'>{$recipe_results['recipe_name']}</h3>
+                                        <p class='recipeCardDesc'>{$recipe_results['description']}</p>
+                                    </div> 
+                                </a>
+                            </div>
+                        </div>
+                    ";
 
+                }
+            }
+        ?>
     </div>
 
-    <?php
-        $site_url = site_url();
-    // If we have results, show them
-      if ($recipe_results) {
-          while ($recipe_results = mysqli_fetch_assoc($results)) {
-            //   echo '<div class= "">';
-            //   echo '<p class= "" >' . $recipe_results['recipe_name'] . '<p>';
-            //   echo '<p class= "" >' . $recipe_results['description'] . '<p>' ;
-            //   echo '</div>';
-            echo "
-                <a href='{$site_url}/recipeDetail.php?id={$recipe_results['id']}' class='' >
-                    <div class=''>
-                    <img class='' width='100px' height='100px' src='{$site_url}/{$recipe_results['image_path']}' alt=''>
-                        <div class=''>
-                            <p class=''>{$recipe_results['recipe_name']}</p>
-                            <p class=''>{$recipe_results['description']}</p>
-                        </div> 
-
-                    </div>
-                </a>
-            ";
-          }
-      }
-?>
-
-  </div>
 </div>
 
 
