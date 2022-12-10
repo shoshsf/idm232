@@ -30,8 +30,8 @@ if (!isset($result)) {
                     <h2 class='recipeDetailTitle'>{$recipe['recipe_name']}</h2>
                     <div class='recipeDetailTimes'> 
                         <div class='recipeDetailTimesContent'>
-                            <p class='recipeDetailTimesItem ffArchitectsDaughter'> Prep Time: {$recipe['prep_time']}</p>
-                            <p class='recipeDetailTimesItem ffArchitectsDaughter specialBorder'> Cook Time: {$recipe['cook_time']}</p>
+                            <p class='recipeDetailTimesItem ffArchitectsDaughter'> Prep Time: {$recipe['prep_time']} mins</p>
+                            <p class='recipeDetailTimesItem ffArchitectsDaughter specialBorder'> Cook Time: {$recipe['cook_time']} mins</p>
                             <p class='recipeDetailTimesItem ffArchitectsDaughter'> Servings: {$recipe['servings']}</p>
                         </div>
                     </div>
