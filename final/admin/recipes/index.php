@@ -45,12 +45,18 @@ $result = mysqli_query($db_connection, $query);
           <?php
             $site_url = site_url();
             while ($recipe = mysqli_fetch_array($result)) {
-              echo "<tr >
-                <td class='recipeName'>{$recipe['recipe_name']}</td>
-                <td class='recipeButtons'>
+              echo "
+              <tr >
+                <td class='recipeName'>
+                <h3>{$recipe['recipe_name']}</h3>
+                </td>
+                <td class=''>
                   <a href='{$site_url}/admin/recipes/edit.php?id={$recipe['id']}' class='editDeleteBtn'>Edit</a>
+                </td>
+                <td class=''>
                   <a href='{$site_url}/admin/recipes/delete.php?id={$recipe['id']}' class='editDeleteBtn deleteBtn'>Delete</a>
                 </td>
+                
               </tr>";
             }
             ?>

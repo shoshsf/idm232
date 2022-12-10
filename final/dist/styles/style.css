@@ -673,7 +673,7 @@ justify-content: center;
 }
 
 .adminViewAll{
- width: 90%;
+ width: 80%;
 }
 .hr_20{
   background-color: #242F36;
@@ -685,36 +685,29 @@ justify-content: center;
 
 
 .recipeName{
-  /* border: 1px yellow solid; */
+ 
   font-family: Baloo;
-  font-size: 18px;
   padding: 10px 15px;
-  width:95%; 
-  border-bottom: 2px double #1c3433;
-
+  width:90%;
+  letter-spacing: 3.5px; 
 }
- .recipeButtons{
-  
-  padding: 10px 15px;
-  /* margin-top: 10px; */
-  /* margin-left: 2px; */
-  border-bottom: 2px double #1c3433;
-  display: flex;
+
+tr:nth-child(even) {
+  background-color: #bfd5d675;
 }
 
 
 .editDeleteBtn {
   font-family: Noto Serif; 
   font-weight: bold;
-  position: relative;
-  padding: 5px 10px;
+  /* position: relative; */
+  padding: 10px 12px;
   color: #1c3433;
   border: 3px #3c505c solid;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   transition: 0.5s;
-
-  margin: 10px;
+  margin: 10px 20px;
 }
 
 .editDeleteBtn:hover {
@@ -727,6 +720,7 @@ justify-content: center;
 .deleteBtn:hover{
   color: #e99342;
 }
+
 
 
 
