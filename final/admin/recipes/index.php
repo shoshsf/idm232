@@ -1,7 +1,7 @@
 <?php
 
 include_once __DIR__ . '/../../app.php';
-$page_title = 'Admin View';
+$page_title = 'Admin Recipes';
 include_once __DIR__ . '/../../_components/header.php';
 ?>
 
@@ -37,9 +37,9 @@ $result = mysqli_query($db_connection, $query);
  
       <table class="adminDiv">
         <thead class="">
-          <!-- <tr>
+          <tr>
             <th scope="col" class="">Name of Recipe</th>
-          </tr> -->
+          </tr>
         </thead>
         <tbody>
           <?php
@@ -48,7 +48,7 @@ $result = mysqli_query($db_connection, $query);
               echo "
               <tr >
                 <td class='recipeName'>
-                <h3>{$recipe['recipe_name']}</h3>
+                  <h3>{$recipe['recipe_name']}</h3>
                 </td>
                 <td class=''>
                   <a href='{$site_url}/admin/recipes/edit.php?id={$recipe['id']}' class='editDeleteBtn'>Edit</a>
