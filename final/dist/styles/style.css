@@ -370,7 +370,7 @@ footer{
 width: 100%;
 height: auto;
 margin:0;
-padding: 10px 0 0;
+padding: 10px 0 20px;
 background-color: #091C29;
 }
 
@@ -379,8 +379,33 @@ footer p {
   text-align: center;
   font-family: Noto Serif;
   font-size: 16px;
+  margin: 10px;
 
 }
+
+
+.simplyRecipe{
+  color: white;
+}
+
+.link{
+   color: white;
+   text-decoration: none;
+  transition: 0.6s;
+  padding: 10px 6px;
+
+}
+
+.link:hover{
+  color:#e99342;
+  text-decoration: 2px solid #e99342 underline;
+
+}
+
+
+
+
+
 /* Footer End */
 
 

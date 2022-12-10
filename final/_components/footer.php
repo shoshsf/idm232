@@ -1,11 +1,13 @@
   <!-- Main Content Ends -->
-  <footer class=""> <!----class="bg-white"--->
-    <h1 id="logo_footer">
+  <footer class=""> 
+     <h1 id="logo_footer">
         Kazi's Kitchen
     </h1>
     <p class="">
-      &copy;<?php echo date('Y'); ?> IDM 232. All
-      rights reserved.
+      &copy;<?php echo date('Y'); ?> IDM 232. All rights reserved.
+    </p>
+    <p class="simplyRecipe">
+      Images and Recipes Courtesy of <a href="https://www.simplyrecipes.com/" class="link"> Simply Recipes</a>
     </p>
   </footer>
 
