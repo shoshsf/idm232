@@ -16,16 +16,13 @@ $document_title = $page_title . ' | ' . $site_title; // Home | JAWN Clips
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="icon" type="image/x-icon" href=" echo site_url(); ?>/dist/images/favicon.ico"> -->
   <script src="https://cdn.tiny.cloud/1/7rpnj47it93x8jhvzo8vbgdulo0j4qdj5xdmud6xc46gy8fb/tinymce/6/tinymce.min.js"
     referrerpolicy="origin"></script>
     
   <link rel="stylesheet" href=" <?php echo site_url(); ?>/dist/styles/style.css">
   <link rel="stylesheet" href=" <?php echo site_url(); ?>/dist/styles/media.css">
   <link rel="icon" href="<?php echo site_url(); ?>/dist/images/favicon.ico">
-  <!-- <link rel="stylesheet" href="../dist/styles/style.css">
-  <link rel="stylesheet" href="../dist/styles/media.css"> -->
-  <link href="https://www.dafontfree.net/embed/YWtyb25pbS1yZWd1bGFyJmRhdGEvMjkvYS8xNTM0MTIvQWtyb25pbS1SZWd1bGFyLnR0Zg" rel="stylesheet" type="text/css"/>
+  <link href="https://www.dafontfree.net/embed/YWtyb25pbS1yZWd1bGFyJmRhdGEvMjkvYS8xNTM0MTIvQWtyb25pbS1SZWd1bGFyLnR0Zg" rel="stylesheet" type="text/css">
 
   <title><?php echo $document_title ; ?></title>
 </head>

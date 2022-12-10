@@ -45,7 +45,7 @@ if ($results->num_rows > 0) {
                     <div>
                         <input class="searchText" type="text" placeholder="Search..." name="search">
                         <button class="searchButtonSec">
-                            <iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon>
+                            <iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; " width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon>
                         </button>
                     </div>
                 </form>

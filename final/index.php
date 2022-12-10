@@ -19,7 +19,7 @@ include_once __DIR__ . '/_components/header.php';
                     <div>
                         <input class="searchText" type="text" placeholder="Search..." name="search">
                         <button class="searchButtonSec">
-                            <iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon>
+                            <iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; " width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon>
                         </button>
                     </div>
                 </form>
@@ -28,9 +28,9 @@ include_once __DIR__ . '/_components/header.php';
         <!-- Top Pick Section-->
         <div id="topPickSection">
             <div id="display">
-                <p id="sectionHeader">Today's Top Pick <p>
+                <p class="sectionHeader">Today's Top Pick <p>
                 <div class="container center">
-                    <img  src=" <?php echo site_url(); ?>/dist\images\homeImgs\layer-bean-dip-880x400.png" alt="Top Pick" class="image responsive" >
+                    <img  src=" <?php echo site_url(); ?>/dist/images/homeImgs/layer-bean-dip-880x400.png" alt="Top Pick" class="image responsive" >
                     <div class="overlay">
                         <div class="slideText">
                             <p class="text">7 Layer Bean Dip
@@ -48,19 +48,19 @@ include_once __DIR__ . '/_components/header.php';
         </div>
         <!-- Category Section-->
         <div id="categorySec">
-            <p id="sectionHeader" class="center"> Categories </p>
+            <p class="center sectionHeader"> Categories </p>
             <div id="categoryDiv" >
                     <section>
                         <img src="<?php echo site_url(); ?>/dist/images/homeImgs/f2_306x306.jpg" alt="food2">
-                        <p> Breakfast</p>
+                        <h4 class="text-center"> Breakfast</h4>
                     </section>
                     <section>
                         <img src="<?php echo site_url(); ?>/dist/images/homeImgs/f3_306x306.jpg" alt="food3">
-                        <p> Lunch </p>
+                        <h4 class="text-center"> Lunch </h4>
                     </section>
                     <section>
                     <img src="<?php echo site_url(); ?>/dist/images/homeImgs/f4_306x306.jpg" alt="food4">
-                        <p> Dinner </p>
+                        <h4 class="text-center"> Dinner </h4>
                     </section>
             </div>
         </div>

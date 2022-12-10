@@ -191,7 +191,7 @@ margin: 0 80px;
 padding-top: 20px;
 }   
 
-#sectionHeader{
+.sectionHeader{
 font-family: Baloo;
 font-size: 20px;
 text-align: center;
@@ -895,8 +895,14 @@ tr:nth-child(even) {
 }
 
 .featureImage{
-  max-width: 700px;
-  padding: 20px 0;
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px  #3546505d;
+  /* max-width: 700px; */
+  /* border: 2px #73bcc0 solid; */
+ /* padding: 20px 0;  */
+
 }
 .recipeDesc{
   font-size: 20px;
@@ -906,6 +912,10 @@ tr:nth-child(even) {
 
 .recipeDetailTop{
   background-color: #BFD5D6;
+  box-shadow: 0 0 10px  #354650c9;
+  padding: 8px 0;
+  border-radius: 15px 15px 0 0 ;
+  
 }
 
 .recipeDetailTitle{

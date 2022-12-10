@@ -36,10 +36,8 @@ if (!isset($result)) {
                         </div>
                     </div>
                 </div>
-
-
-
-                <img class='featureImage center responsive' width='500px' height='500px' src='{$site_url}/{$recipe['image_path']}' alt='#'>
+                
+                <img class='featureImage center responsive' src='{$site_url}/{$recipe['image_path']}' alt='#'>
                 
                 <hr class='hr_30'>
 
