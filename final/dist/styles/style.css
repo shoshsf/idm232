@@ -75,7 +75,8 @@ align-self: center;
 }
 
 .topSecHeader{
-  margin: 0 140px;
+  /* margin: 0 140px; */
+
   font-size: 25px;
 }
 
