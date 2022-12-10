@@ -1,9 +1,9 @@
 /* My CSS */
 
  
-*{
+/* *{
     border: 1px solid red;
-}  
+}   */
 
 
 /*Fonts*/
@@ -810,7 +810,9 @@ justify-content: center;
 }
 
 .recipeCardSec{
-  margin: 45px 70px  15px;
+  margin: 45px 50px 15px;
+  display: flex;
+ flex-direction: column;
 }
 
 .recipeCardImg{
@@ -839,7 +841,6 @@ justify-content: center;
 }
 
 .recipeCardDesc{
-  font-size: 20px;
   margin: 0 20px 0 0;
 }
 

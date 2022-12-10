@@ -626,3 +626,34 @@
 
 
     }
+
+    @media only screen and  (min-width: 400px) and (max-width:900px){
+  
+      .recipeCardSec{
+        margin: 45px 50px 15px;
+        display: flex;
+       flex-direction: column;
+      }
+      
+      .recipeCardImg{
+        object-fit: cover;
+        height: 150px;
+        width: 100%;
+        border-radius: 15px 15px 0 0 ;
+      }
+      
+      .recipeCardContent{
+        display: flex;
+        flex-direction: column;
+        border: 2px #47878A solid;
+        border-radius: 15px;
+        margin: 15px 0;
+      }
+      
+      .recipeCardText{
+        margin: 10px 15px 30px;
+      }
+      
+
+      
+      }

@@ -38,7 +38,7 @@ if ($results->num_rows > 0) {
     <?php include __DIR__ . '../results.php'; ?> 
     <div class=" responsive">
         <div class="midSection">
-            <h1 class="searchTitle">Search Results</h1>
+            <h1 class="searchTitle topSecHeader ffArchitectsDaughter">Search Results</h1>
             <div class="searchSection">
             <div class="searchContainer">
                 <form class="searchBox" action= "<?php echo site_url(); ?>/admin/search" method="GET">

@@ -32,7 +32,7 @@ $result = mysqli_query($db_connection, $query);
             </form>
         </div> 
     </div>
-    <div class="">  
+    <div >  
         <div class="recipeCardSec">
             <?php include __DIR__ . '/_components/recipeCards.php'; ?>
         </div>
