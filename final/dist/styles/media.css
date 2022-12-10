@@ -1,5 +1,5 @@
 
-/*-------------------------(max-width: 1000px) and------------*/
+/*------------New Media-----------------------------------*/
 
 @media only screen and  (min-width: 845px){
     /*Navigation*/
@@ -36,6 +36,10 @@
     /*Navigation End*/
 
     /*----------------------------*/
+
+
+
+     /*----------------------------*/
     
     /*Recipe Detail Page*/
 
@@ -314,6 +318,15 @@
             }
 
       /*Navigation End*/
+       /*----------------------------*/
+
+       #welcomeText{
+        margin: 0;
+        font-family: Architects Daughter;
+        font-size: 18px;
+        text-align: justify;
+        padding-bottom: 20px;
+        }
 
       /*----------------------------*/
 
@@ -464,7 +477,14 @@
         }
 
   /*Navigation End*/
-
+/*----------------------------*/
+#welcomeText{
+  margin: 0 ;
+  font-family: Architects Daughter;
+  font-size: 15px;
+  text-align: justify;
+  padding-bottom: 20px;
+  }
   /*----------------------------*/
 
   /*Recipe Detail Page*/
@@ -603,6 +623,6 @@
       }
 
 /*Navigation End*/
+
+
     }
-
-

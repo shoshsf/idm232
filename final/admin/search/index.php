@@ -39,6 +39,7 @@ if ($results->num_rows > 0) {
     <div class=" responsive">
         <div class="midSection">
             <h1 class="searchTitle">Search Results</h1>
+            <div class="searchSection">
             <div class="searchContainer">
                 <form class="searchBox" action= "<?php echo site_url(); ?>/admin/search" method="GET">
                     <div>
@@ -49,6 +50,7 @@ if ($results->num_rows > 0) {
                     </div>
                 </form>
             </div> 
+        </div>
             <h3 class="text-center">You searched for "<?php echo $search; ?>"</h3>
             <?php
                 // If no results, echo no results

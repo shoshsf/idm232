@@ -20,16 +20,18 @@ $result = mysqli_query($db_connection, $query);
         <h1 class="ffArchitectsDaughter text-center topSecHeader">All Recipes</h1>
         <hr class="hr_20">
     </div>
-    <div class="searchContainer">
-        <form class="searchBox" action= "<?php echo site_url(); ?>/admin/search" method="GET">
-            <div>
-                <input class="searchText" type="text" placeholder="Type here to search..." name="search">
-                <button class="searchButtonSec">
-                    <iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon>
-                </button>
-            </div>
-        </form>
-    </div> 
+    <div class="searchSection">
+        <div class="searchContainer">
+            <form class="searchBox" action= "<?php echo site_url(); ?>/admin/search" method="GET">
+                <div>
+                    <input class="searchText" type="text" placeholder="Search..." name="search">
+                    <button class="searchButtonSec">
+                        <iconify-icon icon="arcticons:xiaoyuan-search" style="color: black; weight: bold" width="45" height="auto"  type="submit" class="searchIcon"></iconify-icon>
+                    </button>
+                </div>
+            </form>
+        </div> 
+    </div>
     <div class="">  
         <div class="recipeCardSec">
             <?php include __DIR__ . '/_components/recipeCards.php'; ?>

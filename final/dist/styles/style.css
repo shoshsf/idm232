@@ -1,9 +1,9 @@
 /* My CSS */
 
  
-/* *{
+*{
     border: 1px solid red;
-}   */
+}  
 
 
 /*Fonts*/
@@ -168,7 +168,7 @@ padding-top: 20px;
 }
 
 #welcomeText{
-margin: 0 140px;
+margin: 0 10px;
 font-family: Architects Daughter;
 font-size: 20px;
 text-align: justify;
@@ -384,30 +384,37 @@ footer p {
 
 
 /* Search Section */
+.searchSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .searchContainer{
 display: flex;
 align-items: center;
 justify-content: center;
 padding: 15px 0 5px;
-margin: 0 320px;
+/* margin: 0 320px; */
+width: 75%;
 }
+
 .searchBox{
 background-color: #ffffff;
 border-radius: 20px;
 box-shadow: 0 4px 6px 3px #47878A73;
 width: 100%;
-
-/* min-width: 300px; add with at specific media */
 padding: 7px 15px;
 }
+
 .searchBox div{
-display: grid;
-grid-template-columns: 90% 10%; /* need to make @media*/
+  display:flex;
 }
 div input[type=text] {
 padding: 6px;
 margin-top: 8px;
 font-size: 17px;
+width:90%;
 border: none;
 
 }
